@@ -4,9 +4,4 @@
 
 
 is_palindrome(X) ->
-    case lists:reverse(X) of
-        X ->
-            yes;
-        _ ->
-            no
-    end.
+    lists:reverse(X) =:= X.
