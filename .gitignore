@@ -24,3 +24,8 @@ rebar3.crashdump
 
 # End of https://www.toptal.com/developers/gitignore/api/erlang
 
+.erlang.mk
+*.d
+*.app
+erlang.mk
+Makefile
